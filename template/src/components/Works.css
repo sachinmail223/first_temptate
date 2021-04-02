@@ -1,0 +1,23 @@
+.work-col {
+/* width: 33rem;
+height: 23rem; */
+border-radius: 2rem;
+/* scale: 1.2; */
+overflow: hidden;
+
+}
+.work-div :hover{
+    box-shadow:
+    0 2.8px 2.2px rgba(233, 142, 67, 0.034),
+    0 6.7px 5.3px rgba(235, 156, 83, 0.048),
+    0 12.5px 10px rgba(223, 151, 84, 0.06),
+    0 12px 12px rgba(221, 139, 92, 0.072),
+    0 20.8px 17.4px rgba(124, 59, 59, 0.086),
+    0 50px 40px rgba(223, 154, 76, 0.12)
+  ;
+  transition: .3s ease-in-out;
+ }
+ .work-col:hover{
+    opacity: .8;
+    transition: .3s ease-in-out;
+ }
