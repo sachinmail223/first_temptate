@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./About.css"
 
+
 const About = () => {
+   
     return (
         <div className="container-fluid  vh-100 justify-content-center ">
-            <div className="row w-75 h-100 position-absolute">
+            <div className="row w-75 h-100 position-absolute" >
                 <div className="col-12 w-100 h-75 border about-bg align-self-center"></div>
             </div>
             <div className="container vh-100">
@@ -22,7 +24,7 @@ const About = () => {
                                             <p className="lead font-weight-normal m-0 p-c">"What was the epicurus towards their children; each of these can have a chain.</p>
                                         </div>
                                     </div>
-                                    <div className="col-md-6 progress-div">
+                                    <div className="col-md-6 progress-div" >
                                         <p>User Interface Design</p>
                                         <div className="div-1">
                                             <div></div>
@@ -39,7 +41,7 @@ const About = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-12  mt-md-0 mt-3">
+                            <div className="col-12  mt-md-0 mt-3" data-aos="fade-up">
                                 <div className="col-12 anny justify-content-between p-1"><img src="/images/brand1.webp" alt="" className="col-md-2 col-4 p-0" />
                                     <img src="/images/brand2.webp" alt="" className="col-md-2 col-4 p-0" />
                                     <img src="/images/brand3.webp" alt="" className="col-md-2 col-4 p-0" />
@@ -58,7 +60,9 @@ const About = () => {
 
                 </div>
                 </div>
-
+                
+   
+     
         </div>
     )
 }

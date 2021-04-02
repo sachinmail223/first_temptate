@@ -3,7 +3,7 @@ import React from 'react'
 const ContectInfo = () => {
     return (
         <div className="container">
-            <div className="row">
+            <div className="row" data-aos="fade-up">
                 <div className="col-md-4">
                     <p className="text-white lead font-weight-bolder mb-0">Design For</p>
                     <p className="text-white lead ">Web & Mobile</p>
