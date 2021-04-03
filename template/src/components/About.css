@@ -11,6 +11,7 @@
     height: 5px;
     background-color: rgb(240, 195, 178);
     border-radius: 5px;
+    overflow: hidden;
 }
 .progress-div >div >div{
     height: 5px;

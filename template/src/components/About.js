@@ -27,15 +27,15 @@ const About = () => {
                                     <div className="col-md-6 progress-div" >
                                         <p>User Interface Design</p>
                                         <div className="div-1">
-                                            <div></div>
+                                            <div data-aos="fade-right"></div>
                                         </div>
                                         <p>UUser Experience</p>
                                         <div className="div-2">
-                                            <div></div>
+                                            <div data-aos="fade-right"></div>
                                         </div>
                                         <p>Illustration</p>
                                         <div className="div-3">
-                                            <div></div>
+                                            <div data-aos="fade-right"></div>
                                         </div>
 
                                     </div>
