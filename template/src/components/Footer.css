@@ -1,7 +1,18 @@
 .footer-div{
-    height: 40vh;
+    
     background: black;
 }
 .footer-div >div>div>div>h1{
     color: var( --primary-orenge);
+}
+.social-icon{
+    color: var( --primary-orenge);
+   
+    transition: 1s ease-in-out;
+}
+.social-icon:hover{
+    /* color: blanchedalmond; */
+   
+    transform: rotateY(360deg);
+    transition: 1s ease-in-out;
 }
