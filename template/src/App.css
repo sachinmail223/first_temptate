@@ -7,8 +7,12 @@
 
 body{
   font-family: 'Roboto Condensed', sans-serif;
+  /* overflow-x: hidden; */
 }
 
+.App{
+  overflow: hidden;
+}
 
 .Nav-div{
   z-index: 100;

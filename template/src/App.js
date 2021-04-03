@@ -12,8 +12,9 @@ import Works from "./components/Works";
 // import TT from "./components/TT";
 import About from "./components/About";
 import Testimonial from "./components/Testimonial";
-import News from "./components/News";
+// import News from "./components/News";
 import { useEffect } from "react";
+import Footer from "./components/Footer";
 
 
 
@@ -24,9 +25,9 @@ function App() {
     AOS.init({duration:1000});
   }, [])
   return (
-    <div className="App bg-light">
+    <div className="App  bg-light">
       <div className="col-12 Home-div vh-100 p-0 position-absolute"><Home /></div>
-      <div className="col-12 Nav-div fixed-top p-0"><Navbar /></div>
+      <div className="col-12 Nav-div fixed-top m-0 p-0"><Navbar /></div>
 
 
       <div className="container vh-100 ">
@@ -39,6 +40,8 @@ function App() {
      <Experties/>
      <Works/>
      <About/>
+     <Testimonial/>
+     <Footer/>
      
 
       

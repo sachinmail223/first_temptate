@@ -1,0 +1,7 @@
+.footer-div{
+    height: 40vh;
+    background: black;
+}
+.footer-div >div>div>div>h1{
+    color: var( --primary-orenge);
+}
