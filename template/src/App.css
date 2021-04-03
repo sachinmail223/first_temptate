@@ -11,7 +11,7 @@ body{
 
 
 .Nav-div{
-  position: absolute;
+  z-index: 100;
 }
 :root{
   --primary-white: #fff;

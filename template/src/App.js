@@ -24,27 +24,25 @@ function App() {
     AOS.init({duration:1000});
   }, [])
   return (
-    <div className="App row m-0 bg-light">
-     
-      
+    <div className="App bg-light">
+      <div className="col-12 Home-div vh-100 p-0 position-absolute"><Home /></div>
+      <div className="col-12 Nav-div fixed-top p-0"><Navbar /></div>
 
-      <div className="col-12 Home-div vh-100 p-0"><Home /></div>
-      <div className="col-12 h-100 Nav-div">
-        <div className="row h-100">
-          <div className="col-12"><Navbar /></div>
-          <div className="col-12 align-self-center mt-5"><PrsonalInfo /></div>
-          
-          <div className="col-12 align-self-end mb-5"><ContectInfo /></div>
+
+      <div className="container vh-100 ">
+        <div className="row h-100 justify-content-center">
+          <div className="col-12 align-self-center position-absolute"><PrsonalInfo/></div>
+          <div className="col-12 align-self-end pb-5 "><ContectInfo/></div>
         </div>
       </div>
 
-      <Experties/>
-      <Works/>
+     <Experties/>
+     <Works/>
+     <About/>
+     
+
       
-      <About/>
-      <Testimonial/>
-      
-      <News/>
+    
       {/* <TT /> */}
     </div>
     
